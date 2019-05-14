@@ -71,6 +71,7 @@ contains
 
     if (maxSumm>mpimaxSumm) then
      mpimaxSumm=maxSumm
+     mpimaxRank=status(MPI_SOURCE)
     endif
 
    enddo
